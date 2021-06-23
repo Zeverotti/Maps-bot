@@ -1,0 +1,30 @@
+{
+  "name": "maps-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "archiver": "^5.3.0",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.6.0",
+    "telegraf": "^3.38.0",
+    "user-instagram": "^2.1.9",
+    "ytdl-core": "^4.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeverotti/Maps-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeverotti/Maps-bot/issues"
+  },
+  "homepage": "https://github.com/Zeverotti/Maps-bot#readme"
+}
