@@ -32,7 +32,7 @@ bot.command('map', async (ctx) => {
     const stream = await geocoding(query, zoom);
     ctx.replyWithPhoto({ source: stream });
   } catch (error) {
-    ctx.reply('An error occured: '+error.message);
+    ctx.reply('An error occurred: '+error.message);
   }
 })
 
